@@ -8,6 +8,8 @@ The project was made from scratch with the help of [Opencore - Dortania Guide](h
 
 `Opencore Version : 0.9.3`
 
+<img src="https://github.com/blazer444/Acer-Nitro-5-Hackintosh-AN515-54-Ventura/blob/main/screenshot.png" alt="macOS Ventura">
+
 ## Configuration
 
 | Specifications      | Details                                            |
