@@ -2,6 +2,11 @@
 Acer Nitro 5 Hackintosh AN515-54 Ventura OpenCore 0.9.3
 macOS Ventura on Acer Nitro 5 AN515-54 with OpenCore 0.9.3 EFI folder.
 
+# macOS Ventura : version 13.6.1
+
+The project was made from scratch with the help of [Opencore - Dortania Guide](https://dortania.github.io/OpenCore-Install-Guide/). A huge thanks to the awesome community for the documantation.
+
+`Opencore Version : 0.9.3`
 
 ## Configuration
 
@@ -10,10 +15,10 @@ macOS Ventura on Acer Nitro 5 AN515-54 with OpenCore 0.9.3 EFI folder.
 | Laptop Model        | AN515-54 574Q                                      |
 | Processor           | Intel® Core™ i5-9300H                              |
 | Graphics            | Intel® UHD Graphics 630 & Nvidia GeForce® GTX 1650 |
-| RAM                 | 8GB DDR4-2666Mhz                                  |
-| Disk                | SK Hynix 256gb PCIe® NVMe™ & 1TB SATA HDD          |
+| RAM                 | 8GB DDR4-2666Mhz                                   |
+| Disk                | KINGSTON RBUSNS8154P3512GJ1 512gb                  |
 | Audio               | Realtek HD Audio ALC255                            |
-| Wifi                | Intel(R) Wireless-AC 9560 160MHz                   |
+| Wifi                | Intel Wi-Fi 6 AX200 160MHz                         |
 | Ethernet            | RealTek RTL8168/8111 PCI-E Gigabit Ethernet        |
 
 ## What's working
@@ -32,6 +37,12 @@ macOS Ventura on Acer Nitro 5 AN515-54 with OpenCore 0.9.3 EFI folder.
 
 - [ ] GTX 1650 (macOS does not support recent Nvidia GPUs).
 - [ ] HDMI port (since it's connected to the GTX 1650).
+
+## Important Note
+- THIS IS ILLEGAL USE IN PERSONAL ONLY!!!
+- Set SATA mode to AHCI (Use CTRL+S in BIOS to unhide SATA Mode menu)
+- Disable Secure Boot
+- Generate new SMBIOS (https://github.com/corpnewt/GenSMBIOS) - Optional
 
 ## Installation
 
